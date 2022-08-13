@@ -1,0 +1,42 @@
+
+
+body{
+    margin: 0px 150px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.colorcontainer form{
+    text-align: center;
+}
+
+/* JavaScript ile renk değiştiren butonların en,boy,renk ve ölçeklendirme işlemleri */
+.colorcontainer input{
+   width: 100px;
+   height: 30px;
+   color: rgb(72, 57, 209);
+   text-align: center;
+   border-radius:125px;
+   cursor: pointer;
+   font-size:15px ;
+   border: none;
+
+   
+}
+.colorcontainer input:hover{
+    color: rgb(29, 1, 29);
+    background-color: rgb(158, 226, 89);
+    border-radius:20px 0px 20px 0px;
+    box-shadow: 3px 5px 10px rgb(5, 226, 208);
+    transition: 1sn;
+    
+ }
+
+
+.btnwtire-note{
+    text-align: center;
+    font-size: 20px;
+}
